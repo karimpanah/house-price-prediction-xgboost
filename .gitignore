@@ -1,0 +1,23 @@
+# Python & Notebook cache files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Optional: ignore dataset or model files
+*.pkl
+*.joblib
+*.h5
+*.csv
+data/
+models/
+
+# ❌ DON'T ignore image files (you want to keep them)
+# (so we remove *.png, *.jpg, images/ etc from ignore list)
