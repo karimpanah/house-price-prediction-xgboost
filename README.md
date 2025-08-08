@@ -68,7 +68,7 @@ python-bidi
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/boston-house-price-prediction.git
+git clone https://github.com/karimpanah/boston-house-price-prediction.git
 cd boston-house-price-prediction
 ```
 
@@ -175,9 +175,9 @@ This project is licensed under the MIT License
 
 ## 📧 Contact
 
-kak_arman@protonmail.com
+Arman Karimpanah - kak_arman@protonmail.com
 
-Project Link: (https://github.com/karimpanah/boston-house-price-prediction)
+Project Link: [https://github.com/karimpanah/boston-house-price-prediction](https://github.com/karimpanah/boston-house-price-prediction)
 
 ---
 
