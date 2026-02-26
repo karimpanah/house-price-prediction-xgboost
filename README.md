@@ -14,7 +14,6 @@ A machine learning project that predicts house prices using the Boston Housing d
 - [Usage](#usage)
 - [Model Performance](#model-performance)
 - [Visualizations](#visualizations)
-- [Project Structure](#project-structure)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -52,7 +51,6 @@ The project uses the Boston Housing dataset which contains:
 ## 🛠 Requirements
 
 ```python
-torch>=1.9.0
 pandas>=1.3.0
 numpy>=1.21.0
 scikit-learn>=1.0.0
@@ -68,8 +66,9 @@ python-bidi
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/karimpanah/boston-house-price-prediction.git
-cd boston-house-price-prediction
+git clone https://github.com/karimpanah/house-price-prediction-xgboost.git
+
+cd house-price-prediction-xgboost
 ```
 
 2. Install required packages:
@@ -80,13 +79,14 @@ pip install -r requirements.txt
 3. If running on Kaggle, the dataset path is already configured:
 ```python
 df = pd.read_csv('/kaggle/input/the-boston-houseprice-data/boston.csv')
+# if you run on local system, you should change CSV direction in main.py
 ```
 
 ## 💻 Usage
-
-1. **Run the Jupyter Notebook**:
+  
+1. **Run the main script**:
    ```bash
-   jupyter notebook regresion_boston_house_price.ipynb
+   python main.py
    ```
 
 2. **Key Steps in the Pipeline**:
@@ -128,19 +128,6 @@ The project includes several informative visualizations:
 4. **Feature Importance**: Bar chart showing which features matter most
 5. **Correlation Heatmap**: Feature relationships with target variable
 
-## 📁 Project Structure
-
-```
-boston-house-price-prediction/
-│
-├── regresion_boston_house_price.ipynb    # Main notebook with complete pipeline
-├── README.md                             # Project documentation
-├── requirements.txt                      # Python dependencies
-├── models/
-│   └── xgboost_model.joblib             # Saved trained model
-└── data/
-    └── boston.csv                        # Dataset (if local)
-```
 
 ## 🔧 Hyperparameters
 
@@ -177,7 +164,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Arman Karimpanah - kak_arman@protonmail.com
 
-Project Link: [https://github.com/karimpanah/boston-house-price-prediction](https://github.com/karimpanah/boston-house-price-prediction)
+Project Link: [https://github.com/karimpanah/house-price-prediction-xgboost.git](https://github.com/karimpanah/house-price-prediction-xgboost.git)
 
 ---
 
